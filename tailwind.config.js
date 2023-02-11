@@ -7,6 +7,7 @@ module.exports = {
 variants: {
   extend: {
     display: ['group-focus'],
+    display: ['group-hover'],
     opacity: ['group-focus'],
     inset: ['group-focus']
 
