@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 3s black',
+      }
+    },
   },
 variants: {
   extend: {
