@@ -662,10 +662,6 @@ video {
   grid-row-start: 2;
 }
 
-.row-start-4 {
-  grid-row-start: 4;
-}
-
 .row-start-3 {
   grid-row-start: 3;
 }
@@ -692,6 +688,10 @@ video {
 
 .row-end-4 {
   grid-row-end: 4;
+}
+
+.float-right {
+  float: right;
 }
 
 .m-auto {
@@ -909,20 +909,20 @@ video {
   margin-left: 2rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
+.mr-0 {
+  margin-right: 0px;
 }
 
-.ml-16 {
-  margin-left: 4rem;
+.ml-auto {
+  margin-left: auto;
 }
 
-.ml-12 {
-  margin-left: 3rem;
+.ml-0 {
+  margin-left: 0px;
 }
 
 .box-border {
@@ -1001,12 +1001,12 @@ video {
   height: 0.75rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-10 {
+  height: 2.5rem;
 }
 
-.h-14 {
-  height: 3.5rem;
+.h-\[500px\] {
+  height: 500px;
 }
 
 .h-\[350px\] {
@@ -1071,18 +1071,6 @@ video {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-28 {
@@ -1193,34 +1181,6 @@ video {
   width: 160px;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-\[\628px\] {
-  width: بpx;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-4\/6 {
   width: 66.666667%;
 }
@@ -1275,10 +1235,6 @@ video {
   grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
 .grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
@@ -1305,6 +1261,14 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1406,10 +1370,6 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
 }
 
 .border-gray-100 {
@@ -1770,10 +1730,6 @@ video {
   padding-top: 2.75rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -1784,6 +1740,10 @@ video {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .pr-3 {
@@ -1975,26 +1935,6 @@ video {
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
-.text-cyan-400 {
-  --tw-text-opacity: 1;
-  color: rgb(34 211 238 / var(--tw-text-opacity));
-}
-
-.text-cyan-500 {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
-}
-
-.text-cyan-600 {
-  --tw-text-opacity: 1;
-  color: rgb(8 145 178 / var(--tw-text-opacity));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -2160,10 +2100,6 @@ video {
 
   .sm\:h-\[400px\] {
     height: 400px;
-  }
-
-  .sm\:h-\[300px\] {
-    height: 300px;
   }
 
   .sm\:w-36 {
@@ -2437,8 +2373,8 @@ video {
     height: 600px;
   }
 
-  .lg\:h-\[550px\] {
-    height: 550px;
+  .lg\:h-\[400px\] {
+    height: 400px;
   }
 
   .lg\:h-20 {
@@ -2447,18 +2383,6 @@ video {
 
   .lg\:h-64 {
     height: 16rem;
-  }
-
-  .lg\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .lg\:h-\[520px\] {
-    height: 520px;
-  }
-
-  .lg\:h-\[350px\] {
-    height: 350px;
   }
 
   .lg\:w-40 {
@@ -2475,10 +2399,6 @@ video {
 
   .lg\:w-14 {
     width: 3.5rem;
-  }
-
-  .lg\:w-36 {
-    width: 9rem;
   }
 
   .lg\:justify-center {
@@ -2516,14 +2436,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:row-start-4 {
-    grid-row-start: 4;
-  }
-
-  .xl\:row-end-5 {
-    grid-row-end: 5;
-  }
-
   .xl\:m-auto {
     margin: auto;
   }
@@ -2561,24 +2473,16 @@ video {
     height: 4rem;
   }
 
-  .xl\:h-\[450px\] {
-    height: 450px;
-  }
-
-  .xl\:h-\[400px\] {
-    height: 400px;
+  .xl\:h-\[580px\] {
+    height: 580px;
   }
 
   .xl\:h-\[550px\] {
     height: 550px;
   }
 
-  .xl\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .xl\:h-\[580px\] {
-    height: 580px;
+  .xl\:h-\[400px\] {
+    height: 400px;
   }
 
   .xl\:h-44 {
@@ -2664,10 +2568,6 @@ video {
 
   .\32xl\:h-\[400px\] {
     height: 400px;
-  }
-
-  .\32xl\:h-\[800px\] {
-    height: 800px;
   }
 
   .\32xl\:justify-center {
