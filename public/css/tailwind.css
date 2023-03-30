@@ -606,10 +606,6 @@ video {
   z-index: 0;
 }
 
-.col-span-5 {
-  grid-column: span 5 / span 5;
-}
-
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -759,11 +755,6 @@ video {
 .my-32 {
   margin-top: 8rem;
   margin-bottom: 8rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mt-2 {
@@ -916,10 +907,6 @@ video {
 
 .mt-1 {
   margin-top: 0.25rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
 }
 
 .mr-28 {
@@ -1194,8 +1181,12 @@ video {
   width: 66.666667%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-3\/6 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -1204,10 +1195,6 @@ video {
 
 .table-auto {
   table-layout: auto;
-}
-
-.border-collapse {
-  border-collapse: collapse;
 }
 
 @keyframes pulse {
@@ -1316,30 +1303,6 @@ video {
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-x-14 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(3.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-9 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .self-center {
   align-self: center;
 }
@@ -1405,17 +1368,8 @@ video {
   border-width: 2px;
 }
 
-.border-x-4 {
-  border-left-width: 4px;
-  border-right-width: 4px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
 }
 
 .border-none {
@@ -1595,11 +1549,6 @@ video {
   background-image: none;
 }
 
-.decoration-slice {
-  -webkit-box-decoration-break: slice;
-          box-decoration-break: slice;
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1622,10 +1571,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .py-4 {
@@ -1713,19 +1658,14 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .pb-6 {
@@ -2018,14 +1958,6 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-black {
-  text-decoration-color: #000;
-}
-
-.decoration-inherit {
-  text-decoration-color: inherit;
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -2294,6 +2226,30 @@ video {
     margin-left: 5rem;
   }
 
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2380,6 +2336,10 @@ video {
 
   .md\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .md\:justify-center {
@@ -2580,6 +2540,14 @@ video {
     height: 11rem;
   }
 
+  .xl\:h-9 {
+    height: 2.25rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
+  }
+
   .xl\:w-\[620px\] {
     width: 620px;
   }
@@ -2590,6 +2558,22 @@ video {
 
   .xl\:w-40 {
     width: 10rem;
+  }
+
+  .xl\:w-3 {
+    width: 0.75rem;
+  }
+
+  .xl\:w-3\/6 {
+    width: 50%;
+  }
+
+  .xl\:w-9 {
+    width: 2.25rem;
+  }
+
+  .xl\:w-8 {
+    width: 2rem;
   }
 
   .xl\:justify-center {
@@ -2659,6 +2643,26 @@ video {
 
   .\32xl\:h-\[400px\] {
     height: 400px;
+  }
+
+  .\32xl\:h-4 {
+    height: 1rem;
+  }
+
+  .\32xl\:w-2 {
+    width: 0.5rem;
+  }
+
+  .\32xl\:w-2\/6 {
+    width: 33.333333%;
+  }
+
+  .\32xl\:w-2\/4 {
+    width: 50%;
+  }
+
+  .\32xl\:w-7 {
+    width: 1.75rem;
   }
 
   .\32xl\:justify-center {
