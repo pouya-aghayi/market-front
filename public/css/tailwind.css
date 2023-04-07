@@ -2767,6 +2767,18 @@ video {
     height: 100%;
   }
 
+  .ipadair\:h-\[900px\] {
+    height: 900px;
+  }
+
+  .ipadair\:h-\[880px\] {
+    height: 880px;
+  }
+
+  .ipadair\:h-\[840px\] {
+    height: 840px;
+  }
+
   .ipadair\:w-1\/2 {
     width: 50%;
   }
