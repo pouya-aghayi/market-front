@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
+    fontFamily: {
+      body: ['Vazir']
+    },
      screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
