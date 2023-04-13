@@ -21,6 +21,7 @@ module.exports = {
       '2xl': '1280px',
       // => @media (min-width: 1536px) { ... }
     },
+
     extend: {
       animation: {
         'spin-slow': 'spin 3s black',
