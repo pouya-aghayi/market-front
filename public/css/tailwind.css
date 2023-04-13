@@ -1725,6 +1725,20 @@ video {
   background-color: rgb(138 162 158 / var(--tw-bg-opacity));
 }
 
+.bg-\[db5461\] {
+  background-color: db5461;
+}
+
+.bg-\[\#db5461\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 84 97 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3d5467\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 84 103 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -1759,6 +1773,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-4 {
