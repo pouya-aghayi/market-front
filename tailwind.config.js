@@ -3,7 +3,7 @@ module.exports = {
   content: ["./public/*.html"],
   theme: {
     fontFamily: {
-      body: ['Vazir']
+    'vazir': ['"vazirmatn"']
     },
      screens: {
       'sm': '640px',
